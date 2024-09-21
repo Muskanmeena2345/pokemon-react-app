@@ -1,0 +1,41 @@
+.app {
+  text-align: center;
+  background-color: #f5e050; /* Yellow theme */
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Creative font */
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #f28f3b;
+}
+
+.search-input {
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 18px;
+  width: 300px;
+  border: 2px solid #f28f3b;
+  border-radius: 5px;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px auto;
+  width: 300px;
+}
+
+.suggestions li {
+  background-color: #f9d423;
+  padding: 8px;
+  margin: 2px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.suggestions li:hover {
+  background-color: #ffbe33;
+}
